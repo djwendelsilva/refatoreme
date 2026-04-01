@@ -1,8 +1,9 @@
-export default function Card({ titulo, descricao }) {
+function Card(props) {
   return (
     <div className="card">
-      <h3>{titulo}</h3>
-      <p>{descricao}</p>
+      <h2>{props.titulo}</h2>
+      <p>{props.descricao}</p>
     </div>
   );
 }
+export default Card;
