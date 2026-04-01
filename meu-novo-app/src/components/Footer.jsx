@@ -8,5 +8,4 @@ function Footer() {
   )
 }
 
-// ESSA LINHA ABAIXO É A QUE ESTÁ FALTANDO:
 export default Footer; 

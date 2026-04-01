@@ -6,14 +6,14 @@ import './App.css'
 function App() {
   return (
     <div>
-      <Header /> {/* Isso faz o Header aparecer */}
+      <Header /> 
       
       <main>
         <Card titulo="Meu Primeiro Projeto" descricao="Refatoração concluída!" />
         <Card titulo="Docker" descricao="Configurado com sucesso." />
       </main>
 
-      <Footer /> {/* Isso faz o Footer aparecer */}
+      <Footer /> 
     </div>
   )
 }
