@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Check, Zap, Star, ShieldCheck } from 'lucide-react';
 
-// --- COMPONENTE: HEADER ---
 const Header = () => (
   <header style={{ 
     background: 'linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%)',
@@ -22,7 +21,6 @@ const Header = () => (
   </header>
 );
 
-// --- COMPONENTE: SEÇÃO EXPANSÍVEL ---
 const ExpandableSection = ({ title, shortText, fullText, isCard }) => {
   const [isOpen, setIsOpen] = useState(false);
   const style = isCard ? {
@@ -45,7 +43,6 @@ const ExpandableSection = ({ title, shortText, fullText, isCard }) => {
   );
 };
 
-// --- NOVO COMPONENTE: PRICING CARD (MODERNO) ---
 const PricingCard = ({ title, price, features, isHighlighted, badge, color, icon: Icon }) => {
   return (
     <div style={{
