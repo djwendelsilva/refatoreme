@@ -1,0 +1,1 @@
+*{box-sizing:border-box;margin:0;padding:0}html,body{background-color:#1a1a1a;height:100%}html{scroll-behavior:smooth}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:system-ui,-apple-system,sans-serif}#root{flex-direction:column;min-height:100vh;display:flex}a{transition:opacity .3s}a:hover{opacity:.7}
