@@ -1,4 +1,3 @@
-/* Reset padrão para remover espaços indesejados */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,10 +6,9 @@
 
 html, body {
   height: 100%;
-  background-color: #1a1a1a; /* Cor de fundo para evitar clarão branco */
+  background-color: #1a1a1a; 
 }
 
-/* O segredo para o scroll suave funcionar ao clicar no MENU */
 html {
   scroll-behavior: smooth;
 }
@@ -21,14 +19,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* O #root deve permitir que a página cresça (min-height em vez de height) */
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* Estilo básico para links */
 a {
   transition: opacity 0.3s ease;
 }

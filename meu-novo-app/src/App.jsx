@@ -101,7 +101,6 @@ function App() {
           <ExpandableSection isCard title="Conexão" shortText="Onde o talento encontra a oportunidade." fullText="Mais que um curso, somos uma ponte para startups..." />
         </div>
 
-        {/* SEÇÃO PLANOS REFORMULADA */}
         <section id="planos" style={{ padding: '60px 0' }}>
           <div style={{ textAlign: 'center', marginBottom: '50px' }}>
             <h2 style={{ color: '#007bff', fontSize: '2.5rem', fontWeight: '900', marginBottom: '20px' }}>NOSSOS PLANOS</h2>
