@@ -128,11 +128,7 @@ function App() {
               color="#cd7f32" 
               icon={Zap} 
               price={calcPrice(49.90)} 
-              features={[
-                { text: "Acesso a 50+ cursos" },
-                { text: "Certificado de conclusão" },
-                { text: "Suporte prioritário", disabled: true }
-              ]} 
+              features={} 
             />
             <PricingCard 
               isHighlighted 
@@ -141,22 +137,14 @@ function App() {
               color="#fff" 
               icon={Star} 
               price={calcPrice(89.90)} 
-              features={[
-                { text: "Acesso a 150+ cursos" },
-                { text: "Projetos em grupo" },
-                { text: "Suporte via Discord" }
-              ]} 
+              features={} 
             />
             <PricingCard 
               title="OURO" 
               color="#ffd700" 
               icon={ShieldCheck} 
               price={calcPrice(149.90)} 
-              features={[
-                { text: "Acesso ilimitado" },
-                { text: "Mentoria 1-on-1" },
-                { text: "Acesso antecipado a cursos" }
-              ]} 
+              features={} 
             />
           </div>
         </section>
